@@ -1,0 +1,64 @@
+import pizza from '../../assets/images/pizza.png'
+import Food from '../../models/FoodsPerfil'
+import ProductList2 from '../../components/ProductList2'
+import Banner from '../../components/Banner'
+
+const perfil: Food[] = [
+  {
+    button: 'Adcionar ao carrinho',
+    description:
+      'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
+    image: pizza,
+    title: 'Pizza Marguerita',
+    id: 1
+  },
+  {
+    button: 'Adcionar ao carrinho',
+    description:
+      'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
+    image: pizza,
+    title: 'Pizza Marguerita',
+    id: 2
+  },
+  {
+    button: 'Adcionar ao carrinho',
+    description:
+      'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
+    image: pizza,
+    title: 'Pizza Marguerita',
+    id: 3
+  },
+  {
+    button: 'Adcionar ao carrinho',
+    description:
+      'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
+    image: pizza,
+    title: 'Pizza Marguerita',
+    id: 4
+  },
+  {
+    button: 'Adcionar ao carrinho',
+    description:
+      'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
+    image: pizza,
+    title: 'Pizza Marguerita',
+    id: 4
+  },
+  {
+    button: 'Adcionar ao carrinho',
+    description:
+      'A clássica Marguerita: molho de tomate suculento, mussarela derretida, manjericão fresco e um toque de azeite. Sabor e simplicidade!',
+    image: pizza,
+    title: 'Pizza Marguerita',
+    id: 4
+  }
+]
+
+const Perfil = () => (
+  <>
+    <Banner />
+    <ProductList2 foods={perfil} />
+  </>
+)
+
+export default Perfil
