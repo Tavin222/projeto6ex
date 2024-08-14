@@ -1,5 +1,5 @@
 import Tag from '../Tag'
-import { Card, Descricao, Infos, Titulo } from './styles'
+import { Card, Descricao, Imagem, Infos, Nota, Titulo } from './styles'
 import estrela from '../../assets/images/estrela.png'
 
 type Props = {
@@ -17,10 +17,12 @@ const Product = ({ title, more, description, image, infos }: Props) => (
         <Tag key={info}>{info}</Tag>
       ))}
     </Infos>
-    <img src={image} />
-    <Titulo>{title}</Titulo>
-    <Descricao>{description}</Descricao>
-    <Tag>{more}</Tag>
+    <Nota>
+      <Imagem src={image} />
+      <Titulo>{title}</Titulo>
+      <Descricao>{description}</Descricao>
+      <Tag>{more}</Tag>
+    </Nota>
   </Card>
 )
 

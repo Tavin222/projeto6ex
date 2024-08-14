@@ -10,4 +10,5 @@ export const TextHeader = styled.h2`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 40px;
 `
