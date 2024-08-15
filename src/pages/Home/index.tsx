@@ -1,4 +1,3 @@
-import Text from '../../components/TextHeader'
 import ProductList from '../../components/ProductList'
 import Foods from '../../models/Foods'
 import comida from '../../assets/images/comida.png'
@@ -62,7 +61,6 @@ const homes: Foods[] = [
 
 const Home = () => (
   <>
-    <Text />
     <ProductList foods={homes} />
   </>
 )

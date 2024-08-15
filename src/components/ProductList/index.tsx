@@ -13,7 +13,6 @@ const ProductList = ({ foods }: Props) => (
         {foods.map((food) => (
           <Product
             key={food.id}
-            more={food.more}
             description={food.description}
             image={food.image}
             infos={food.infos}

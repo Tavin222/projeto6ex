@@ -1,19 +1,22 @@
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/logo.svg'
-import { HeaderBar, LinkItem, Links, LinkCar } from './styles'
+import { HeaderBar, BackImg, Text } from './styles'
+import Back from '../../assets/images/VectoP.jpg'
 
 const Header = () => (
-  <HeaderBar>
-    <Links>
-      <LinkItem>
-        <Link to="/perfil">Categorias</Link>
-      </LinkItem>
-    </Links>
-    <Link to={'/'}>
-      <img src={logo} alt="" />
-    </Link>
-    <LinkCar href="#">0 - produto(s)</LinkCar>
-  </HeaderBar>
+  <BackImg style={{ backgroundImage: `url(${Back})` }}>
+    <div className="container">
+      <HeaderBar>
+        <Link to={'/perfil'}>
+          <img src={logo} alt="" />
+        </Link>
+        <Text>
+          Viva experiências gastronômicas <br />
+          <p> no conforto da sua casa </p>
+        </Text>
+      </HeaderBar>
+    </div>
+  </BackImg>
 )
 
 export default Header

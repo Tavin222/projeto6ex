@@ -1,13 +1,12 @@
 import Food from '../../models/FoodsPerfil'
 import ProductSecond from '../Product2'
-import Product2 from '../Product2'
 import { Container, List } from './styles'
 
 export type Props = {
   foods: Food[]
 }
 
-const ProductList = ({ foods }: Props) => (
+const ProductListSecond = ({ foods }: Props) => (
   <Container>
     <div className="container">
       <List>
@@ -25,4 +24,4 @@ const ProductList = ({ foods }: Props) => (
   </Container>
 )
 
-export default ProductList
+export default ProductListSecond

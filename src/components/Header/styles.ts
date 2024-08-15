@@ -1,33 +1,37 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
 
+export const BackImg = styled.div`
+  height: 384px;
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+`
+
 export const HeaderBar = styled.header`
   color: ${cores.rosa};
-  padding: 24px;
-  display: flex;
+  position: relative;
   align-items: center;
+  display: flex;
   justify-content: space-between;
-  margin-top: 63px;
-  text-decoration: none;
-  margin-bottom: 66px;
-
-  a {
-    color: ${cores.rosa};
-    text-decoration: none;
-    font-weight: bold;
+  img {
+    position: absolute;
+    top: 40px;
+    left: 450px;
   }
 `
 
-export const Links = styled.ul`
-  display: flex;
-  text-decoration: none;
-`
+export const Text = styled.p`
+  width: 100%;
+  height: 84px;
+  line-height: 42px;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 260px;
+  margin-left: 240px;
 
-export const LinkItem = styled.li`
-  text-decoration: none;
-`
-
-export const LinkCar = styled.a`
-  display: flex;
-  text-decoration: none;
+  p {
+    margin-left: 60px;
+  }
 `

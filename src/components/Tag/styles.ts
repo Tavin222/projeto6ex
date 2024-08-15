@@ -7,7 +7,7 @@ export const TagContainer = styled.div<Props>`
   color: ${cores.branca};
   font-size: 14px;
   font-weight: bold;
-  padding: 4px 84px;
+  padding: 6px 10px;
   justify-content: space-between;
   align-items: center;
 `

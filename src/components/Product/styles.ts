@@ -7,24 +7,28 @@ export const Card = styled.div`
   color: ${cores.rosa};
   margin-top: 32px;
   position: relative;
-
-  ${TagContainer} {
-    margin-bottom: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
-  }
 `
 export const Nota = styled.div`
   border: 1px solid ${cores.rosa};
 `
 
 export const Titulo = styled.h3`
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
   display: inline-block;
   margin-top: 8px;
   margin-bottom: 8px;
   margin-left: 8px;
+
+  span {
+    margin-left: 214px;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      margin-left: 8px;
+    }
+  }
 `
 
 export const Descricao = styled.p`
@@ -45,4 +49,20 @@ export const Infos = styled.div`
 
 export const Imagem = styled.img`
   width: 100%;
+`
+
+export const Botao = styled.button`
+  align-items: center;
+  display: inline-block;
+  border: none;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  max-width: 82px;
+  height: 26px;
+  background-color: ${cores.rosa};
+  color: ${cores.branca};
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
 `
