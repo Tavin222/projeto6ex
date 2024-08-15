@@ -1,6 +1,7 @@
 import ProductList from '../../components/ProductList'
 import Foods from '../../models/Foods'
 import comida from '../../assets/images/comida.png'
+import Header from '../../components/Header'
 
 const homes: Foods[] = [
   {
@@ -61,6 +62,7 @@ const homes: Foods[] = [
 
 const Home = () => (
   <>
+    <Header />
     <ProductList foods={homes} />
   </>
 )

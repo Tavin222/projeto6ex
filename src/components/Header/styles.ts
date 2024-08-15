@@ -7,18 +7,19 @@ export const BackImg = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 export const HeaderBar = styled.header`
   color: ${cores.rosa};
-  position: relative;
   align-items: center;
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  justify-content: center;
   img {
-    position: absolute;
-    top: 40px;
-    left: 450px;
+    padding-left: 900px;
+    padding-top: 64px;
   }
 `
 
@@ -28,8 +29,9 @@ export const Text = styled.p`
   line-height: 42px;
   font-size: 36px;
   font-weight: bold;
-  padding-top: 260px;
-  margin-left: 240px;
+  padding-top: 160px;
+  margin-left: 680px;
+  padding-bottom: 100px;
 
   p {
     margin-left: 60px;

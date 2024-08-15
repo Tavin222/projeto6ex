@@ -5,17 +5,15 @@ import Back from '../../assets/images/VectoP.jpg'
 
 const Header = () => (
   <BackImg style={{ backgroundImage: `url(${Back})` }}>
-    <div className="container">
-      <HeaderBar>
-        <Link to={'/perfil'}>
-          <img src={logo} alt="" />
-        </Link>
-        <Text>
-          Viva experiências gastronômicas <br />
-          <p> no conforto da sua casa </p>
-        </Text>
-      </HeaderBar>
-    </div>
+    <HeaderBar>
+      <Link to={'/perfil'}>
+        <img src={logo} alt="" />
+      </Link>
+      <Text>
+        Viva experiências gastronômicas <br />
+        <p> no conforto da sua casa </p>
+      </Text>
+    </HeaderBar>
   </BackImg>
 )
 

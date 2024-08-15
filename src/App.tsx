@@ -8,9 +8,6 @@ function App() {
   return (
     <BrowserRouter>
       <GlobalCss />
-      <div className="container">
-        <Header />
-      </div>
       <Rotas />
       <Footer />
     </BrowserRouter>

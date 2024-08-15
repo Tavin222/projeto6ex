@@ -2,6 +2,7 @@ import pizza from '../../assets/images/pizza.png'
 import Food from '../../models/FoodsPerfil'
 import ProductListSecond from '../../components/ProductList2'
 import Banner from '../../components/Banner'
+import HeaderSecond from '../../components/Header copy'
 
 const perfil: Food[] = [
   {
@@ -56,6 +57,7 @@ const perfil: Food[] = [
 
 const Perfil = () => (
   <>
+    <HeaderSecond />
     <Banner />
     <ProductListSecond foods={perfil} />
   </>

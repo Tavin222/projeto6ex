@@ -15,14 +15,26 @@ export const HeaderBar = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 63px;
   text-decoration: none;
-  margin-bottom: 66px;
+  margin-left: 400px;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1366px;
+    width: 100%;
+  }
 
   a {
     color: ${cores.rosa};
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  img {
+    margin-right: 400px;
   }
 `
 
@@ -33,9 +45,11 @@ export const Links = styled.ul`
 
 export const LinkItem = styled.li`
   text-decoration: none;
+  display: flex;
 `
 
 export const LinkCar = styled.a`
-  display: flex;
+  display: inline-flex;
   text-decoration: none;
+  margin-right: 270px;
 `
