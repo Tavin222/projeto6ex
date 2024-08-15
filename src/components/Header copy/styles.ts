@@ -34,7 +34,7 @@ export const HeaderBar = styled.header`
   }
 
   img {
-    margin-right: 400px;
+    margin-right: 350px;
   }
 `
 
@@ -49,7 +49,7 @@ export const LinkItem = styled.li`
 `
 
 export const LinkCar = styled.a`
-  display: inline-flex;
+  display: flex;
   text-decoration: none;
   margin-right: 270px;
 `
